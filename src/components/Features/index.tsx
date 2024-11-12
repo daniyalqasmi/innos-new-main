@@ -10,13 +10,16 @@ const Features = () => {
   return (
     <>
       <Fade duration={2000}>
-        <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px] items-center text-center justify-center">
-          <div className="container">
-            <SectionTitle
-              subtitle="Egenskaper"
-              title="Hovedtrekkene"
-              paragraph=""
-            />
+        <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px] justify-center text-center">
+          <div className="container ">
+            <div className="text-center">
+
+              <SectionTitle
+                subtitle="Egenskaper"
+                title="Hovedtrekkene"
+                paragraph=""
+              />
+            </div>
 
             <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">
               {featuresData.featuresData.map((feature, i) => (

@@ -263,7 +263,7 @@ const Header = () => {
                 <button>
                   <Link
                     href="/login"
-                    className="text-base font-medium text-body-color hover:text-[#58c0c2] dark:text-white dark:hover:text-[#58c0c2] mr-6 border-3 border-[#58c0c2] py-2 px-4 rounded-full"
+                    className="text-base font-medium text-white hover:text-[#58c0c2] dark:text-white dark:hover:text-[#58c0c2] mr-6 border-3 border-[#58c0c2] py-2 px-4 rounded-full"
                   >
                     Login
                   </Link>

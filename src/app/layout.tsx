@@ -42,7 +42,7 @@ export default function RootLayout({
               <Header />
               {children}
               <Footer />
-              <ScrollToTop />
+              {/* <ScrollToTop /> */}
             </ThemeProvider>
           </SessionProvider>
         )}
